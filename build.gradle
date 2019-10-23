@@ -51,3 +51,9 @@ dependencies {
     // end::tests[]
 }
 
+test {
+    reports {
+        junitXml.enabled = true
+        html.enabled = true
+    }
+}
