@@ -16,6 +16,6 @@ public class HelloControllerIT {
     @Test
     public void someTest() throws Exception {
         HelloController helloController = new HelloController();
-        assertThat(helloController.index(), equalTo("Service One"));
+        assertThat(helloController.index(), equalTo("Service Two"));
     }
 }
